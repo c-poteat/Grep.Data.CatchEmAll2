@@ -1,7 +1,16 @@
 # Part 1
 ### a)
 
-
+grep -E "blas|toise" forest/file* > captured/blastoise.txt
+grep -E "beed|rill" forest/file* > captured/beedrill.txt
+grep "bulb" forest/file* > captured/bulbasaur.txt
+ggrep -P "butt" forest/file* > captured/butterfree.txt
+grep 'mander$' forest/file* > captured/charmander.txt
+grep 'meleon$' forest/file* > captured/charmeleon.txt
+ggrep -P 'ivys' forest/file* > captured/ivysaur.t/xt
+grep -w 'lypuff' forest/file* > captured/jigglypuff.txt
+grep -w 'meow\|th' forest/file* > captured/meowth.txt
+grep -w 'pika\|chu' forest/file* > captured/pikachu.txt
 
 
 ### b)
@@ -10,28 +19,37 @@
 
 ### c)
 
+blastoise filescan_00.1
+beedrill filescan_00.1
+bulbasaur filescan_00.1
+butterfree filescan_00.1
 
+charmander filescan_00.2
+charmeleon filescan_00.2
+charizard filescan_00.2
 
+ivysaur filescan_00.3
+jigglypuff filescan_00.3
+meowth filescan_00.3
+pikachu filsecan_00.3
 
-
-
-
-
-
-
-
+psyduck filescan_00.4
+squirtle filescan_00.4
+wartortle filescan_00.4
+venusaur filescan_00.4
 
 
 # Part 2
 ### a)
 
+a) How many pokemon are there? Show your grep that you used to get to that number.
 
 
 
 
 
 ### b)
-
+b) Who are the three biggest pokemon? (number of lines) Show the grep that you used to get to the result.
 
 
 
